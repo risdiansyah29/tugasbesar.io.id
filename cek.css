@@ -1,0 +1,114 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  align-items: center;
+}
+
+header h1 {
+  background: #865dd3;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+}
+
+.content {
+  background: #ffffff;
+  margin: 1px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 60%;
+  margin-left: 250px;
+}
+
+.content h2 {
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+}
+
+.content h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #865dd3;
+}
+
+.content p {
+  margin: 10px 0;
+  line-height: 1.2;
+  color: black;
+}
+
+.content img {
+  width: 170px;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 15px;
+}
+
+.content span {
+  font-weight: bold;
+}
+
+.content li {
+  padding: 2px;
+  margin: 10px;
+}
+
+.keterangan li {
+  background: #f4f4f9;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  list-style: none;
+}
+
+.keterangan img {
+  border-radius: 10px;
+  width: 60%;
+  height: auto;
+}
+
+.jenis {
+  background: #f4f4f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.sumber {
+  background: #f4f4f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.tutorial {
+  margin-top: 20px;
+}
+
+.tutorial a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.tutorial a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background: #865dd3;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+  margin: 0;
+}
